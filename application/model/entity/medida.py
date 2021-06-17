@@ -1,6 +1,4 @@
 from datetime import datetime
-
-
 class Medida:
         def __init__(self, id, ozonio, materialparticulado, monoxido_carbono, oxido_nitroso, data):
             self._id = id
