@@ -59,5 +59,5 @@ class Medida:
                 "materialparticulado": self._materialparticulado,
                 "monoxido_carbono": self._monoxido_carbono,
                 "oxido_nitroso": self._oxido_nitroso,
-                "data": self._data.strftime('%d/%m/%Y %H:%M')
+                "data": self._data
             }
