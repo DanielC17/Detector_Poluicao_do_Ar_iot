@@ -10,9 +10,9 @@ class MedidaDao():
         return self._medicoes
 
 
-medicao_1 = Medida(1, 1, 1, 1, 1, datetime.now())
-medicao_2 = Medida(1, 2, 2, 2 ,2, "15/06/2021 08:00")
-medicao_3 = Medida(2, 3, 3, 3, 3, datetime.now())
+medicao_1 = Medida(1, 1, 1, 1, 1, "14/06/2021")
+medicao_2 = Medida(1, 2, 2, 2 ,2, "15/06/2021")
+medicao_3 = Medida(2, 3, 3, 3, 3, "16/06/2021")
 
 medida_list = MedidaDao([medicao_1, medicao_2,medicao_3])
 
